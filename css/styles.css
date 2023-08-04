@@ -1,0 +1,108 @@
+body {
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  border-radius: 0px;
+  background-color: #BDD91D;
+}
+
+.navbar-brand{
+  font-size: 39px;
+  color: IndianRed;
+  padding-left: 25px;
+}
+
+.navbar-brand:hover{
+  color: #1E8DBE;
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+  border: 2px solid white;
+  margin-right: 25px;
+}
+
+.icon-bar{
+  background-color: IndianRed;
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #E6E523;
+  font-size: 45px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+li{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu-item{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: lightskyblue;
+  border-bottom: 1px solid black;
+  color: black;
+  display: block;
+}
+
+.menu-item:hover{
+  background-color: #D0F9EA;
+  color: black;
+}
+
+.row{
+  margin: 20px;
+}
+
+.content-box{
+  /* background-image: url(../img/fastx.jpg); */
+  margin: auto;
+  width: 411px;
+  height: auto;
+  color: rgb(106, 0, 255);
+  font-family: 'Oxygen', sans-serif;
+  padding: 24px;
+}
+
+
+.item-name{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  width: auto;
+  margin: auto;
+  background-color: #E6E523;
+}
+
+.item-txt{
+
+  background-color: #E6E523;
+}
+
+#top{
+}
