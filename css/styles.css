@@ -65,14 +65,11 @@ li{
   padding: 1px;
   margin-left: 1px;
   width: 100%;
-  background-color: lightskyblue;
-  border-bottom: 1px solid black;
   color: black;
   display: block;
 }
 
 .menu-item:hover{
-  background-color: #D0F9EA;
   color: black;
 }
 
