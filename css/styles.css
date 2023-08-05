@@ -60,7 +60,7 @@ li{
   width: 100%;
 }
 
-.menu-item{
+/* .menu-item{
   text-align: center;
   padding: 0;
   margin-left: 0;
@@ -70,7 +70,7 @@ li{
 
 .menu-item:hover{
   color: black;
-}
+} */
 
 .row{
   margin: 20px;
