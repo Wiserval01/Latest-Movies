@@ -16,9 +16,9 @@
 
 <body>
 
-<nav class="navbar" id="top">
-  <div class="container-fluid">
 
+<nav class="navbar">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -27,26 +27,30 @@
       </button>
       <a class="navbar-brand" href="#">Movies&Series</a>
     </div>
-
-    <div class="collapse" id="myNavbar">
-      <ul class="nav navbar-nav visible-xs">
-        <li><a class="menu-item" href="#">Action</a></li>
-        <li><a class="menu-item" href="#">Crime</a></li> 
-        <li><a class="menu-item" href="#">Drama</a></li>
-        <li><a class="menu-item" href="#">Comedy</a></li>
-        <li><a class="menu-item" href="#">Horror</a></li>
-        <li><a class="menu-item" href="#">Sci-Fi/Fantasy</a></li>
-        <li><a class="menu-item" href="#">War Drama</a></li> 
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
+      
     </div>
-
   </div>
 </nav>
 
 <h1 class="main-title">Latest Movies</h1>
 
-<div class="row">
+<ul class="w3-sidebar w3-bar-block">
+  <li class="active"><a class="menu-item" href="#">Home</a></li>
+  <li><a class="menu-item" href="#">Action</a></li>
+  <li><a class="menu-item" href="#">Crime</a></li> 
+  <li><a class="menu-item" href="#">Drama</a></li>
+  <li><a class="menu-item" href="#">Comedy</a></li>
+  <li><a class="menu-item" href="#">Horror</a></li>
+  <li><a class="menu-item" href="#">Sci-Fi/Fantasy</a></li>
+  <li><a class="menu-item" href="#">War Drama</a></li>
+</ul>
 
+<div class="row" style="margin-left:8%">
   <div class="col-lg-4 col-md-6 col-sm-12">
     <div class="content-box"><a href="#"><img src="./img/fastx.jpg" width=242px height=300px alt="Movies" id="Movies"></a>
       <p class="item-name"><a href="#">Fast X</a></p>
