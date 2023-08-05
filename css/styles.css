@@ -62,11 +62,10 @@ li{
 
 .menu-item{
   text-align: center;
-  padding: 1px;
-  margin-left: 1px;
+  padding: 0;
+  margin-left: 0;
   width: 100%;
   color: black;
-  display: block;
 }
 
 .menu-item:hover{
